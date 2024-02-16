@@ -1,0 +1,12 @@
+[user]
+	name = Julian Espada
+	email = 38703159+jesp1999@users.noreply.github.com
+	signingkey = C:/Users/jesp1/.ssh/gmail_rsa.pub
+[alias]
+	lol = log --oneline --graph
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = ~/.config/git/allowed_signers
